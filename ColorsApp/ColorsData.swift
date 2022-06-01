@@ -6,7 +6,7 @@
 //
 import Foundation
 import UIKit
-// swiftlint:disable line_length identifier_name colon
+// swiftlint:disable identifier_name colon
 
 class ColorsData: Codable {
     var color_name: String
@@ -21,6 +21,3 @@ class ColorsData: Codable {
         self.color_meaning = color_meaning
     }
 }
-
-//    let url = URL(string: "https://raw.githubusercontent.com/OwnHealthIL/ios-internship-final-exam-osher-yeffet/master/colors.json?token=GHSAT0AAAAAABVB2JJGURDZDECNMR3WKR7WYUXG6BQ")
-//

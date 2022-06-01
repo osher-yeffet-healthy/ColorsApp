@@ -29,17 +29,17 @@
                                             <color key="backgroundColor" systemColor="systemMintColor"/>
                                         </view>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="78Y-hd-dma">
-                                            <rect key="frame" x="90" y="11" width="92" height="109"/>
+                                            <rect key="frame" x="90" y="11" width="316" height="109"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfR-OE-OBF">
-                                                    <rect key="frame" x="0.0" y="0.0" width="49.5" height="31"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="36.5" height="31"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvj-7Y-x2w">
-                                                    <rect key="frame" x="0.0" y="39" width="92" height="31"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvj-7Y-x2w">
+                                                    <rect key="frame" x="0.0" y="39" width="73.5" height="31"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -54,7 +54,7 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="mVV-9Z-Rcy" secondAttribute="trailing" constant="317" id="Gti-Mh-yKC"/>
                                         <constraint firstItem="78Y-hd-dma" firstAttribute="top" secondItem="tCx-r7-o5A" secondAttribute="top" constant="11" id="HoV-h1-7Jq"/>
                                         <constraint firstAttribute="bottom" secondItem="78Y-hd-dma" secondAttribute="bottom" constant="19" id="XZj-GN-dKn"/>
-                                        <constraint firstAttribute="trailing" secondItem="78Y-hd-dma" secondAttribute="trailing" constant="232" id="nuN-Vv-E52"/>
+                                        <constraint firstAttribute="trailing" secondItem="78Y-hd-dma" secondAttribute="trailing" constant="8" id="nuN-Vv-E52"/>
                                         <constraint firstItem="mVV-9Z-Rcy" firstAttribute="top" secondItem="tCx-r7-o5A" secondAttribute="topMargin" constant="11" id="qIt-9t-zQn"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="mVV-9Z-Rcy" secondAttribute="bottom" constant="11" id="rCS-M2-Luh"/>
                                         <constraint firstItem="78Y-hd-dma" firstAttribute="leading" secondItem="mVV-9Z-Rcy" secondAttribute="trailing" constant="13" id="vg4-SH-ArG"/>
@@ -63,6 +63,7 @@
                                 <connections>
                                     <outlet property="colorDescriptionLabel" destination="Pvj-7Y-x2w" id="UnW-kY-c29"/>
                                     <outlet property="colorNameLabel" destination="vfR-OE-OBF" id="1Tc-D4-Dnt"/>
+                                    <outlet property="colorView" destination="mVV-9Z-Rcy" id="9a5-XT-xFA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
