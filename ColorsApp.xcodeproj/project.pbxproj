@@ -99,13 +99,11 @@
 		67AE169128474D3F00C4A73F /* ColorsApp */ = {
 			isa = PBXGroup;
 			children = (
-				67AE169228474D3F00C4A73F /* AppDelegate.swift */,
-				67AE169428474D3F00C4A73F /* SceneDelegate.swift */,
 				67AE169628474D3F00C4A73F /* ViewController.swift */,
 				67AE169828474D3F00C4A73F /* Main.storyboard */,
 				67AE169B28474D4100C4A73F /* Assets.xcassets */,
-				67AE169D28474D4100C4A73F /* LaunchScreen.storyboard */,
 				67AE16A028474D4100C4A73F /* Info.plist */,
+				67AE16C328474EEF00C4A73F /* Supporting Files */,
 			);
 			path = ColorsApp;
 			sourceTree = "<group>";
@@ -127,6 +125,16 @@
 			path = ColorsAppUITests;
 			sourceTree = "<group>";
 		};
+		67AE16C328474EEF00C4A73F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67AE169228474D3F00C4A73F /* AppDelegate.swift */,
+				67AE169428474D3F00C4A73F /* SceneDelegate.swift */,
+				67AE169D28474D4100C4A73F /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +145,7 @@
 				67AE168B28474D3F00C4A73F /* Sources */,
 				67AE168C28474D3F00C4A73F /* Frameworks */,
 				67AE168D28474D3F00C4A73F /* Resources */,
+				67AE16C228474E6300C4A73F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -252,6 +261,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67AE16C228474E6300C4A73F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = " bash\n    if which swiftlint >/dev/null; then\n        swiftlint lint --strict\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n        exit 1\n    fi# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67AE168B28474D3F00C4A73F /* Sources */ = {
