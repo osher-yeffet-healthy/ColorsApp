@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import ColorsApp
-
+// swiftlint:disable line_length
 class ColorsAppTests: XCTestCase {
 
     override func setUpWithError() throws {

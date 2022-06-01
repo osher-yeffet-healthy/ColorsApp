@@ -9,6 +9,9 @@ import UIKit
 
 class ColorTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var colorNameLabel: UILabel!
+    @IBOutlet weak var colorDescriptionLabel: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -6,18 +6,28 @@
 //
 
 import UIKit
-
+// swiftlint:disable line_length
 class ColorsListTableViewController: UITableViewController {
+
+//    var colors: Colors?
+    var colors: Colors?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let localData = colors?.readLocalFile(forName: "data") {
+            colors!.parse(jsonData: localData)
+            self.tableView.reloadData()
+        }
+        tableView.delegate = self
+        tableView.dataSource = self
+//        downloadJson()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+//    let url = URL(string: "https://raw.githubusercontent.com/OwnHealthIL/ios-internship-final-exam-osher-yeffet/master/colors.json?token=GHSAT0AAAAAABVB2JJGURDZDECNMR3WKR7WYUXG6BQ")
 
     // MARK: - Table view data source
 
@@ -28,18 +38,15 @@ class ColorsListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return colors.self?.colors.count ?? 1
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ColorCell", for: indexPath) as? ColorTableViewCell
+//        cell?.colorNameLabel.text = colors?.colors[indexPath.row].color_name
+//        cell?.colorDescriptionLabel.text = "Description:" + (colors?.colors[indexPath.row].color_description)
+        return cell!
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

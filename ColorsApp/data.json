@@ -1,0 +1,104 @@
+{
+    "colors": [
+        {
+            "color_name": "Amber",
+            "color_values": {
+                "r": 100,
+                "g": 74.9,
+                "b": 0
+            },
+            "color_description": "Amber is a bright, warm color that is midway between yellow and orange",
+            "color_meaning": "As it is a warm and radiant color, amber is associated with energy. Its vibrance can promote feelings of happiness and inspire boldness. In color psychology, amber is thought to symbolize and promote vitality, confidence and safety. Throughout history, the tree resin amber has been associated with magic and spirituality – themes which may be linked with the color amber, too. In ancient Greek and Roman times, women wore amber figurines to ensure fertility, while other early cultures believed the souls of animals became amber after their death. Because tree resin often contains the preserved remains of bugs, amber can also be associated with the natural world. Other associations might come from amber's similarity to other shades. Because it is close in appearance to yellow, the hue can also be linked to sunshine. Its similarity to the color of gold means it might also be associated with wealth."
+        },
+        {
+            "color_name": "Fuchsia",
+            "color_values": {
+                "r": 100,
+                "g": 0,
+                "b": 100
+            },
+            "color_description": "Fuchsia is a bright purplish-red color",
+            "color_meaning": "Fuchsia's bright, bold appearance is energizing and uplifting. It's likely to be considered a fun and even provocative shade. Due to its similarity to pink, fuchsia is also likely to be considered a feminine color—but one that's more confident and mature than shades like pastel pink or baby pink. It's been used by many female-focussed brands to convey a sense of attitude. For instance, the women's magazine Cosmopolitan, the fashion label Betsey Johnson and the TV show Sex and the City all use fuchsia in their logos. In color psychology, fuchsia is believed to inspire assurance and assertiveness."
+        },
+        {
+            "color_name": "Rose Gold",
+            "color_values": {
+                "r": 71.8,
+                "g": 43.1,
+                "b": 47.5
+            },
+            "color_description": "Rose gold is a soft, golden-tinged shade of pink",
+            "color_meaning": "As a color rose gold communicates luxury, thanks to its association with the precious metal and common use in jewelry. Gold is a marker of wealth, so rose gold is often associated with style, elegance and affluence. Rose gold's soft hue can also appear romantic, refined and composed. While it is a shade of pink, a color typically considered feminine, rose gold has often been described as a “gender neutral” hue. In color psychology, rose gold is through to create a sense of calm and alleviate anger."
+        },
+        {
+            "color_name": "Yellow Orange",
+            "color_values": {
+                "r": 100,
+                "g": 68.2,
+                "b": 25.9
+            },
+            "color_description": "Yellow orange is warm shade midway between yellow and orange",
+            "color_meaning": "Just like the two hues it's made up of, yellow orange conveys happiness, excitement and enthusiasm. As it is the color of sunshine, it's likely to be associated with warmth and energy. Its likeness to the color of autumn leaves means it could also be linked with the change of seasons. Yellow and orange are the two brightest, most visible hues on the color wheel. In the 20th century, they're commonly used by vehicles and items that want to stand out for safety or hazard reasons—road signs, life jackets and school buses are all bright orange or yellow hues. By extension, yellow orange might also be associated with hazards. According to color psychology, yellow orange's vibrant appearance can uplift, inspire boldness and promote feelings of happiness."
+        },
+        {
+            "color_name": "Maroon",
+            "color_values": {
+                "r": 50.2,
+                "g": 0,
+                "b": 0
+            },
+            "color_description": "Maroon is a very dark shade of red",
+            "color_meaning": "Maroon is a shade of red, a color that is associated with intensity. Passion, love, anger, energy and danger can all be linked with red, however maroon's more muted tone means it is less likely to make that impression. Because of its association with Buddhism, maroon can even conjure feelings of spirituality, wisdom or calm. According to color psychology, maroon is associated with control, responsibility and thoughtfulness. Maroon can even be associated with the season of fall, as leaves sometimes appear maroon when they change color."
+        },
+        {
+            "color_name": "Pastel Green",
+            "color_values": {
+                "r": 46.7,
+                "g": 86.7,
+                "b": 46.7
+            },
+            "color_description": "Pastel green is pale, delicate shade of green",
+            "color_meaning": "Pastel green is a soothing, peaceful color. In color psychology, green is thought to help promote a sense of serenity and help balance emotions; pastel green's gentle appearance makes it a particularly calming shade. As the color of trees and grass, green also has strong links with the environment. It's seen as the color of luck, optimism, renewal and freshness—all associations likely to be extended to pastel green. All pastel shades are said to be reminiscent of springtime and because of its link to the natural world, pastel green is especially likely to remind audiences of the season. Pastel shades often appear soft and romantic. But their current widespread popularity in design means the muted hues aren't necessarily considered feminine—pastel green, in particular, looks gender neutral."
+        },
+        {
+            "color_name": "Whitesmoke",
+            "color_values": {
+                "r": 96.1,
+                "g": 96.1,
+                "b": 96.1
+            },
+            "color_description": "Whitesmoke is a slightly gray shade of off white",
+            "color_meaning": "White has long been considered the color of purity, an association likely to be extended to off white shades like whitesmoke. The color's link with religion means it can symbolize spirituality, sacredness and goodness. White is also the color of peace—the white dove is a symbol of peace, while a white flag is used to represent surrender. White is also often associated with innocence or fresh starts, which is why it's worn on occasions that signify a new beginning. For instance women traditionally wear white dresses when they get married, debutantes wear white to their first ball and in Christianity, children wear white for their baptism and first communion. However, as whitesmoke contains of a hint of gray, it might also conjure associations common to that hue—like neutrality, conformity, boredom and old age. But very pale grays are more likely to be considered cool and assured than dreary or dull."
+        },
+        {
+            "color_name": "Royal Blue",
+            "color_values": {
+                "r": 25.5,
+                "g": 41.2,
+                "b": 88.2
+            },
+            "color_description": "Royal blue is a deep, vivid blue. It is lighter than navy blue",
+            "color_meaning": "The color royal blue has regal associations, thanks to its historical connection to the British throne. This makes it a popular choice for suits, bridesmaid dresses and formal outfits. According to color psychology, blue is associated with trustworthiness and reliability. On the other hand, blue can be associated with depression: There's the phrase “feeling blue”, or singing “the blues”. But royal blue's bright, vivid hue means it's less likely to make this impression. Other common associations for blue include peacefulness—blue is the color of the sky and the ocean, both of which are said to promote feelings of tranquility; as a result, the color blue is said to have the same effect."
+        },
+        {
+            "color_name": "Olive Green",
+            "color_values": {
+                "r": 72.9,
+                "g": 72.2,
+                "b": 42.4
+            },
+            "color_description": "Olive green is dark yellowish-green color",
+            "color_meaning": "Olive green is a versatile color. It looks sophisticated alongside neutrals like beige, tan and maroon—a color palette famously used by rapper and designer Kanye West in his Yeezy clothing and shoe lines. Olive green is popular in fashion as it is considered flattering to most skin tones. In interior design, a splash of olive green can warm up a room."
+        },
+        {
+            "color_name": "Bright Orange",
+            "color_values": {
+                "r": 100,
+                "g": 64.7,
+                "b": 0
+            },
+            "color_description": "Bright orange is a vivid shade of orange",
+            "color_meaning": "Bright orange is a bold, vibrant color that conveys warmth, excitement and enthusiasm. It combines the energy of red with the cheerfulness of yellow, the two hues it sits between on the color wheel. Bright orange has a number of associations. As orange is the shade of changing leaves, it's often thought of as the color of autumn. In North America, it's strongly linked with Halloween. A study from Forbes magazine in 1991 found it's also the color associated with good value, which is why low-cost brands like Home Depot use orange in their branding. Orange is believed to be a color that can stimulate the appetite. As it is the hue of healthy foods and warming spices like pumpkin, paprika, sweet potato, carrots and citrus fruit, orange has positive associations with health, life and energy. Because it is so tightly linked with good flavor, many foods are artificially colored orange. In color psychology, orange is thought to uplift, encourage socializing and inspire productivity."
+        }
+    ]
+}

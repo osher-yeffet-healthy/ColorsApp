@@ -18,6 +18,9 @@
 		67AE16C5284755AF00C4A73F /* ColorsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE16C4284755AF00C4A73F /* ColorsListTableViewController.swift */; };
 		67AE16C7284758F100C4A73F /* SingleColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE16C6284758F100C4A73F /* SingleColorViewController.swift */; };
 		67AE16C92847591A00C4A73F /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE16C82847591A00C4A73F /* ColorTableViewCell.swift */; };
+		67AE16CB2847604E00C4A73F /* ColorsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE16CA2847604E00C4A73F /* ColorsData.swift */; };
+		67AE16CD28477C5200C4A73F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AE16CC28477C5200C4A73F /* Colors.swift */; };
+		67AE16D1284781DB00C4A73F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 67AE16D0284781DB00C4A73F /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		67AE16C4284755AF00C4A73F /* ColorsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsListTableViewController.swift; sourceTree = "<group>"; };
 		67AE16C6284758F100C4A73F /* SingleColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleColorViewController.swift; sourceTree = "<group>"; };
 		67AE16C82847591A00C4A73F /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		67AE16CA2847604E00C4A73F /* ColorsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsData.swift; sourceTree = "<group>"; };
+		67AE16CC28477C5200C4A73F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		67AE16D0284781DB00C4A73F /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				67AE16C4284755AF00C4A73F /* ColorsListTableViewController.swift */,
 				67AE16C6284758F100C4A73F /* SingleColorViewController.swift */,
 				67AE16C82847591A00C4A73F /* ColorTableViewCell.swift */,
+				67AE16CA2847604E00C4A73F /* ColorsData.swift */,
+				67AE16CC28477C5200C4A73F /* Colors.swift */,
+				67AE16D0284781DB00C4A73F /* data.json */,
 				67AE169B28474D4100C4A73F /* Assets.xcassets */,
 				67AE16A028474D4100C4A73F /* Info.plist */,
 				67AE16C328474EEF00C4A73F /* Supporting Files */,
@@ -249,6 +258,7 @@
 				67AE169F28474D4100C4A73F /* LaunchScreen.storyboard in Resources */,
 				67AE169C28474D4100C4A73F /* Assets.xcassets in Resources */,
 				67AE169A28474D3F00C4A73F /* Main.storyboard in Resources */,
+				67AE16D1284781DB00C4A73F /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = " bash\n    if which swiftlint >/dev/null; then\n        swiftlint lint --strict\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n        exit 1\n    fi# Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "bash\n    if which swiftlint >/dev/null; then\n        swiftlint lint --strict\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n        exit 1\n    fi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -294,7 +304,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				67AE16C92847591A00C4A73F /* ColorTableViewCell.swift in Sources */,
+				67AE16CB2847604E00C4A73F /* ColorsData.swift in Sources */,
 				67AE169328474D3F00C4A73F /* AppDelegate.swift in Sources */,
+				67AE16CD28477C5200C4A73F /* Colors.swift in Sources */,
 				67AE169528474D3F00C4A73F /* SceneDelegate.swift in Sources */,
 				67AE16C7284758F100C4A73F /* SingleColorViewController.swift in Sources */,
 				67AE16C5284755AF00C4A73F /* ColorsListTableViewController.swift in Sources */,
