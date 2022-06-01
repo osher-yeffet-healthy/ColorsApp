@@ -8,37 +8,12 @@
 import UIKit
 // swiftlint:disable line_length
 class ColorsListTableViewController: UITableViewController {
-
     var colorList = Colors(colors: [])
-
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchData()
-        //        let jsonData = colorList.readLocalJSONFile(forName: "data")
-        //        if let data = jsonData {
-        //            if let colObj = colorList.parse(jsonData: data) {
-        //                print("colors list: \(colObj.colors)")
-        //            }
-        //        }
-        //        if let localData = colorList.readLocalFile(forName: "data") {
-        //            if let colObj = colorList.parse(jsonData: localData) {
-        //                print(colObj.colors)
-        //            }
-        //        }
-        //        downloadJson()
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
-//    func colorParse(dic: [String: Int]) -> UIColor {
-//        let color = UIColor(red: <#T##Int#>, green: <#T##Int#>, blue: <#T##Int#>)
-//        return color
-//    }
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -103,16 +78,20 @@ class ColorsListTableViewController: UITableViewController {
      return true
      }
      */
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    // MARK: - Navigation
+    var selected: Colors?
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? SingleColorViewController {
+            if let pressedRow = sender as? ColorTableViewCell {
+                destination.view.backgroundColor = UIColor.black
+            }
+        } else {
+            return
+        }
+    }
 }
+
 // swiftlint:disable identifier_name
 extension UIColor {
     func toHexString() -> String {
